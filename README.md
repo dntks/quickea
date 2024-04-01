@@ -3,7 +3,7 @@ Quickea the quick ikea app.
 I chose a simple Clean architecture pattern to setup the project, having a data, a domain and a presentation layer.
 For dependency injection I chose Hilt, for Unit tests I'm using jUnit and mockk.
 In the data layer I separated:
-- the API entities which are the amppings from the json file
+- the API entities which are the mappings from the json file
 - the local entities, which are for 'offline' data storage of the json in the Room database
 - the repository which retrieves data either from the json api or the local db.
 I've made a decision here because of the special file read, as I'm not getting the data every time from a server, I'm only updating the database if it's empty.
