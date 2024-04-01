@@ -7,7 +7,6 @@ import com.dtks.quickea.defaultProductDBEntity2
 import org.junit.Assert
 import org.junit.Test
 
-
 class ProductApiToDBEntityTransformerTest {
 
     private val transformer = ProductApiToDBEntityTransformer()

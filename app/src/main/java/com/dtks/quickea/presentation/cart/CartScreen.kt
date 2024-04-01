@@ -25,7 +25,6 @@ import com.dtks.quickea.domain.model.CouchInfo
 import com.dtks.quickea.domain.model.Price
 import com.dtks.quickea.domain.model.Product
 import com.dtks.quickea.domain.model.ProductType
-import com.dtks.quickea.presentation.products.ProductsViewModel
 import java.math.BigDecimal
 
 /**

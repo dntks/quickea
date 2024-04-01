@@ -1,6 +1,5 @@
 package com.dtks.quickea.domain.usecase
 
-import com.dtks.quickea.data.repository.ProductRepository
 import com.dtks.quickea.defaultCartItem1
 import com.dtks.quickea.defaultCartItem2
 import org.junit.Assert

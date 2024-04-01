@@ -3,17 +3,11 @@ package com.dtks.quickea.presentation.products
 import android.content.Context
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.dtks.quickea.data.repository.ProductRepository
 import com.dtks.quickea.di.DefaultDispatcher
-import com.dtks.quickea.domain.model.CartItem
-import com.dtks.quickea.domain.model.Price
 import com.dtks.quickea.domain.model.Product
 import com.dtks.quickea.domain.usecase.AddProductToCart
-import com.dtks.quickea.domain.usecase.GetCartItems
 import com.dtks.quickea.domain.usecase.GetProducts
 import com.dtks.quickea.domain.usecase.LoadProducts
-import com.dtks.quickea.domain.usecase.RemoveCartItem
-import com.dtks.quickea.domain.usecase.SumCartItemPrices
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers
@@ -21,7 +15,6 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.flowOn
-import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 import javax.inject.Inject

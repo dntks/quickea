@@ -12,8 +12,6 @@ import com.dtks.quickea.domain.model.CouchInfo
 import com.dtks.quickea.domain.model.Price
 import com.dtks.quickea.domain.model.Product
 import com.dtks.quickea.domain.model.ProductType
-import com.dtks.quickea.presentation.navigation.Screen
-import java.math.BigDecimal
 
 
 val defaultProductDBEntity1 = ProductDBEntity(

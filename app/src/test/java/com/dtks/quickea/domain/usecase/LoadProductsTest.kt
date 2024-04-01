@@ -2,7 +2,6 @@ package com.dtks.quickea.domain.usecase
 
 import android.content.Context
 import com.dtks.quickea.data.repository.ProductRepository
-import com.dtks.quickea.defaultProduct1
 import io.mockk.coEvery
 import io.mockk.coVerify
 import io.mockk.mockk

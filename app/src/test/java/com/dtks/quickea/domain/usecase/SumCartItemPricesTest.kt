@@ -1,12 +1,9 @@
 package com.dtks.quickea.domain.usecase
 
-import com.dtks.quickea.data.repository.ProductRepository
 import com.dtks.quickea.defaultCartItem1
 import com.dtks.quickea.defaultCartItem2
 import com.dtks.quickea.defaultProduct1
 import com.dtks.quickea.domain.model.Price
-import io.mockk.coVerify
-import io.mockk.mockk
 import kotlinx.coroutines.test.TestScope
 import kotlinx.coroutines.test.UnconfinedTestDispatcher
 import kotlinx.coroutines.test.runTest
