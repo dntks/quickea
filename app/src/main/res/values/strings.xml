@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Quickea</string>
+    <string name="products">Products</string>
+    <string name="cart">Cart</string>
+    <string name="empty_cart">Your cart is currently empty.\nChoose products on the Products tab!</string>
+    <string name="image_background_transition">image loading transition</string>
+    <string name="image_background_label">image load color animation</string>
+    <string name="remove_items">Remove</string>
+    <string name="color_label">Color: %s</string>
+    <string name="material_label">Material: %s</string>
+    <string name="number_of_seats_label">Number of seats: %s</string>
+    <string name="in_cart">In cart: %d</string>
+    <string name="unknown">Unknown</string>
+    <string name="couch">Couch</string>
+    <string name="chair">Chair</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="sum_of_cart">Total: %s</string>
+    <string name="loading_products">Loading products...</string>
+    <string name="price_label">Price: %s</string>
+    <string name="price_per_item">Price per item: %s</string>
+    <string name="image_load_error">Couldn\'t load image.</string>
+</resources>
