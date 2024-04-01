@@ -33,6 +33,8 @@ fun ProductsScreen(
     viewModel: ProductsViewModel = hiltViewModel()
 ) {
     val productsState by viewModel.allProducts.collectAsStateWithLifecycle()
+    // a state representing if an item is currently being added to the cart,
+    // disabling adding others for that time
     val productAddState by viewModel.productAddState.collectAsStateWithLifecycle()
 
     Scaffold(
